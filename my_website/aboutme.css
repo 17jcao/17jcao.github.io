@@ -1,24 +1,47 @@
 body{
-    font-family: arial;
+    font-family: verdana;
     text-align: center;
-    background-color: mistyrose;
+    background-image: url(images/shootingstars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 p{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 0 200px 0 200px;
+    border: 1px hidden ;
+    border-radius: 15px;
+    background-color: lavenderblush;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 table{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: auto;
     text-align: left;
     border: 1px solid black;
     border-spacing: 5px;
     padding: 5px;
-    background-color: floralwhite;
+    background-color: mintcream;
 }
 ul{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-spacing: 5px;
+    padding: 5px;
+    background-color: mintcream;
     text-align: left;
 }
 ol{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-spacing: 5px;
+    padding: 5px;
+    background-color: mintcream;
     text-align: left;
+}
+img{
+    margin-bottom: 25px;
 }

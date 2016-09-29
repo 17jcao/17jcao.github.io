@@ -1,0 +1,15 @@
+img{
+    border-radius:30%;
+    display: block;
+    margin: auto;
+}
+body{
+    background-color: aliceblue;
+    background-image: url(images/blueclouds.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center bottom;
+}
+h1{
+    text-align: center;
+}

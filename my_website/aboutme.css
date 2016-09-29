@@ -5,43 +5,81 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-p{
-    margin: 0 200px 0 200px;
+.aboutme{
+    width: 800px;
     border: 1px hidden ;
     border-radius: 15px;
     background-color: lavenderblush;
     padding-left: 25px;
     padding-right: 25px;
+    overflow: auto;
+    margin: auto;
 }
 table{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
     margin-bottom: auto;
+    margin-top: 25px;
     text-align: left;
-    border: 1px solid black;
-    border-spacing: 5px;
     padding: 5px;
-    background-color: mintcream;
+    background-color: lightcyan;
+    border: 1px hidden;
+    border-radius: 15px;
 }
-ul{
+.hobbies{
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
-    border-spacing: 5px;
     padding: 5px;
-    background-color: mintcream;
+    background-color: lightcyan;
     text-align: left;
+    border: 1px hidden;
+    border-radius: 15px;
 }
 ol{
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
-    border-spacing: 5px;
     padding: 5px;
-    background-color: mintcream;
+    background-color: lightcyan;
     text-align: left;
+    border: 1px hidden;
+    border-radius: 15px;
 }
 img{
-    margin-bottom: 25px;
+    margin: 25px;
+    position: relative;
+    right: 135px;
 }
+#navigationbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: mistyrose;
+    float: left;
+}
+.bar{
+    float: left;
+    padding: 15px 100px;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 14px, 16px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover{
+    background-color: lightpink;
+}
+.active{
+    background-color: #4CAF50;
+    color: white;
+}
+h1{
+    color: pink;
+    font-size: 40px;
+    position: relative;
+    right: 135px;
+}
+
+

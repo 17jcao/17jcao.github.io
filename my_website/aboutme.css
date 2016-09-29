@@ -1,3 +1,15 @@
+@font-face{
+    font-family: firstfont;
+    src: url(Springtime.ttf);
+}
+@font-face{
+    font-family: secondfont;
+    src: url(coffee_written.woff);
+}
+@font-face{
+    font-family: thirdfont;
+    src: url(fresca.ttf)
+}
 body{
     font-family: verdana;
     text-align: center;
@@ -14,6 +26,9 @@ body{
     padding-right: 25px;
     overflow: auto;
     margin: auto;
+    font-family: thirdfont;
+    font-size: 25px;
+    color: pink;
 }
 table{
     margin-left: auto;
@@ -54,21 +69,24 @@ img{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: mistyrose;
+    background-color: lavenderblush;
     float: left;
+    height: 100%;
 }
 .bar{
     float: left;
-    padding: 15px 100px;
+    padding: 20px;
 }
 li a{
     display: block;
     color: white;
-    padding: 14px, 16px;
+    padding: 14px 16px;
     text-decoration: none;
     text-align: center;
+    font-family: thirdfont;
+    font-size: 30px;
 }
-li a:hover{
+.bar:hover{
     background-color: lightpink;
 }
 .active{
@@ -80,6 +98,12 @@ h1{
     font-size: 40px;
     position: relative;
     right: 135px;
+    Font-family: firstfont;
 }
-
+header{
+    text-align: center;
+    background-color: lavenderblush;
+    color: pink;
+    font-family: firstfont;
+}
 

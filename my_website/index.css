@@ -7,9 +7,56 @@ body{
     background-color: aliceblue;
     background-image: url(images/blueclouds.jpeg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center bottom;
+    background-attachment: fixed;
+    background-position: center;
+}
+#navigationbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: mintcream;
+    float: left;
+    height: 100%;
+}
+.bar{
+    float: left;
+    padding: 20px;
+}
+li a{
+    display: block;
+    color: mediumturquoise;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: thirdfont;
+    font-size: 30px;
+}
+.bar:hover{
+    background-color: paleturquoise;
+    color: white;
+}
+.active{
+    background-color: #4CAF50;
+    color: white;
 }
 h1{
     text-align: center;
+    font-family: firstfont;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    right: 110px;
+}
+@font-face{
+    font-family: firstfont;
+    src: url(Springtime.ttf);
+}
+@font-face{
+    font-family: secondfont;
+    src: url(coffee_written.woff);
+}
+@font-face{
+    font-family: thirdfont;
+    src: url(fresca.ttf)
 }

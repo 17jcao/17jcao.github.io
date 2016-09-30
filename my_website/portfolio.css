@@ -2,7 +2,7 @@ img{
     display: block;
     margin: auto;
     position: relative;
-    top: 180px;
+    top: 200px;
 }
 body{
     background-color: aliceblue;
@@ -41,6 +41,8 @@ h1{
     font-family: firstfont;
     font-size: 60px;
     color: white;
+    position: relative;
+    top: 20px;
 }
 @font-face{
     font-family: firstfont;

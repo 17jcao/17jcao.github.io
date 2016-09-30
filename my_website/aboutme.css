@@ -40,6 +40,7 @@ table{
     background-color: lightcyan;
     border: 1px hidden;
     border-radius: 15px;
+    color: darkturquoise;
 }
 .hobbies{
     margin-left: auto;
@@ -59,10 +60,13 @@ ol{
     border: 1px hidden;
     border-radius: 15px;
 }
+.list{
+    color: darkturquoise;
+}
 img{
     margin: 25px;
     position: relative;
-    right: 135px;
+    bottom: 40px;
 }
 #navigationbar{
     list-style-type: none;
@@ -70,40 +74,42 @@ img{
     padding: 0;
     overflow: hidden;
     background-color: lavenderblush;
-    float: left;
-    height: 100%;
 }
-.bar{
+nav li{
     float: left;
-    padding: 20px;
 }
-li a{
+ nav li a{
     display: block;
-    color: white;
-    padding: 14px 16px;
+    color: pink;
+    padding: 20px;
     text-decoration: none;
     text-align: center;
     font-family: thirdfont;
-    font-size: 30px;
+    font-size: 40px;
+    float: left;
 }
-.bar:hover{
+nav li a:hover{
     background-color: lightpink;
-}
-.active{
-    background-color: #4CAF50;
     color: white;
+    padding: 20px;
+    float: left;
 }
 h1{
     color: pink;
     font-size: 40px;
-    position: relative;
-    right: 135px;
-    Font-family: firstfont;
-}
-header{
     text-align: center;
+    Font-family: firstfont;
+    margin: 0 auto auto auto;
     background-color: lavenderblush;
-    color: pink;
-    font-family: firstfont;
+    width: 20%;
+    position: relative;
+    bottom: 85px;
+}
+h2{
+    color: darkturquoise;
+    text-align: center;
+}
+#school{
+    text-align: center;
 }
 

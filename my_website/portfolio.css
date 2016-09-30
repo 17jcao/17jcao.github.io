@@ -1,0 +1,68 @@
+img{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 180px;
+}
+body{
+    background-color: aliceblue;
+    background-image: url(images/mermaid.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+#navigationbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(216, 240, 243);
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: mediumturquoise;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: thirdfont;
+    font-size: 40px;
+}
+li a:hover{
+    background-color: paleturquoise;
+    color: white;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-family: firstfont;
+    font-size: 60px;
+    color: white;
+}
+@font-face{
+    font-family: firstfont;
+    src: url(Springtime.ttf);
+}
+@font-face{
+    font-family: secondfont;
+    src: url(coffee_written.woff);
+}
+@font-face{
+    font-family: thirdfont;
+    src: url(fresca.ttf)
+}
+p{
+    font-family: thirdfont;
+    font-size: 20px;
+    color: mediumturquoise;
+    text-align: center;
+}
+a{
+    font-family: thirdfont;
+    color: mediumturquoise;
+    font-size: 20px;
+    text-align: center;
+}

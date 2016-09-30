@@ -75,10 +75,10 @@ img{
     overflow: hidden;
     background-color: lavenderblush;
 }
-nav li{
+#navigationbar li{
     float: left;
 }
- nav li a{
+#navigationbar li a{
     display: block;
     color: pink;
     padding: 20px;
@@ -86,13 +86,11 @@ nav li{
     text-align: center;
     font-family: thirdfont;
     font-size: 40px;
-    float: left;
 }
-nav li a:hover{
+#navigationbar li a:hover{
     background-color: lightpink;
     color: white;
     padding: 20px;
-    float: left;
 }
 h1{
     color: pink;
@@ -117,7 +115,7 @@ h2{
     position: relative;
     top: 9px;
 }
-a{
+.cite{
     font-family: thirdfont;
     font-size:20px;
     color: pink;

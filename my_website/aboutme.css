@@ -115,5 +115,13 @@ h2{
 .mySlides{
     margin: auto;
     position: relative;
-    top: 10px;
+    top: 9px;
+}
+a{
+    font-family: thirdfont;
+    font-size:20px;
+    color: pink;
+    position: relative;
+    top: 25px;
+    text-align: left;
 }

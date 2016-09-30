@@ -65,6 +65,8 @@ ol{
 }
 img{
     margin: auto;
+    position: relative;
+    bottom: 40px;
 }
 #navigationbar{
     list-style-type: none;
@@ -110,4 +112,8 @@ h2{
 #school{
     text-align: center;
 }
- 
+.mySlides{
+    margin: auto;
+    position: relative;
+    top: 10px;
+}

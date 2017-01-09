@@ -1,15 +1,18 @@
-img{
-    display: block;
-    margin: auto;
-    position: relative;
-    top: 200px;
+@font-face{
+    font-family: firstfont;
+    src: url(fonts/Springtime.ttf);
 }
+@font-face{
+    font-family: secondfont;
+    src: url(fonts/coffee_written.woff);
+}
+@font-face{
+    font-family: thirdfont;
+    src: url(fonts/fresca.ttf)
+}
+
 body{
     background-color: aliceblue;
-    background-image: url(images/mermaid.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
     text-align: center;
 }
 #navigationbar{
@@ -40,27 +43,18 @@ h1{
     text-align: center;
     font-family: firstfont;
     font-size: 60px;
-    color: white;
+    color: mediumturquoise;
     position: relative;
     top: 20px;
-}
-@font-face{
-    font-family: firstfont;
-    src: url(Springtime.ttf);
-}
-@font-face{
-    font-family: secondfont;
-    src: url(coffee_written.woff);
-}
-@font-face{
-    font-family: thirdfont;
-    src: url(fresca.ttf)
 }
 p{
     font-family: thirdfont;
     font-size: 20px;
     color: mediumturquoise;
     text-align: center;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
 }
 a{
     font-family: thirdfont;

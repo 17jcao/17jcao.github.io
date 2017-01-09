@@ -45,15 +45,15 @@ h1{
 }
 @font-face{
     font-family: firstfont;
-    src: url(Springtime.ttf);
+    src: url(fonts/Springtime.ttf);
 }
 @font-face{
     font-family: secondfont;
-    src: url(coffee_written.woff);
+    src: url(fonts/coffee_written.woff);
 }
 @font-face{
     font-family: thirdfont;
-    src: url(fresca.ttf)
+    src: url(fonts/fresca.ttf)
 }
 p{
     font-family: thirdfont;
